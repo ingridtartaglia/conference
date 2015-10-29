@@ -1,0 +1,18 @@
+<ion-view view-title="Calendar">
+  <ion-content>
+    <ion-list ng-repeat="person in people">
+        <div class="list">
+            <div class="item item-divider">
+                {{person.day}}
+            </div>
+            <p style="padding-top:1em; padding-left:1em;">
+                <span class="calm">{{person.name}}</span><br>
+                <span class="positive">09:00 - 12:00</span> {{person.textOne}}<br>
+                <span class="positive">12:00 - 14:00</span> Lunch<br>
+                <span class="positive">14:00 - 17:00</span> {{person.textTwo}}
+            </p>
+        </div>
+
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,10 @@
+<ion-view view-title="Participants">
+    <ion-content class="calm-bg">
+        <div ng-repeat="person in people">
+            <img ng-src="{{person.img}}" class="person-img">
+            <h3 class="stable text-center">{{person.name}}</h3>
+            <p class="stable text-center">{{person.description}}</p>
+            <p class="positive text-center"><i class="icon ion-ios-more"></i></p>
+        </div>
+    </ion-content>
+</ion-view>
