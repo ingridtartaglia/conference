@@ -4,7 +4,7 @@ angular.module('conference', [])
     $scope.people = [
             {
                 name: "John Doe",
-                img: "../img/male1.png",
+                img: "img/male1.png",
                 description: "Front-end developer at XYZ Corporation",
                 textOne: "The new era of the Angular 2.0",
                 textTwo: "Throw away your jQuery code",
@@ -12,7 +12,7 @@ angular.module('conference', [])
             },
             {
                 name: "Mary Doe",
-                img: "../img/female1.png",
+                img: "img/female1.png",
                 description: "Webdesigner at Ingrid's",
                 textOne: "Best practices with CSS",
                 textTwo: "SASS and LESS: why use them?",
@@ -20,7 +20,7 @@ angular.module('conference', [])
             },
             {
                 name: "Brian Doe",
-                img: "../img/male2.png",
+                img: "img/male2.png",
                 description: "Teacher and scientist at Github University",
                 textOne: "How to build an app using Ionic",
                 textTwo: "The fascinating world of Cordova",
@@ -28,7 +28,7 @@ angular.module('conference', [])
             },
             {
                 name: "Lucy Doe",
-                img: "../img/female2.png",
+                img: "img/female2.png",
                 description: "CEO at Education 4Everyone",
                 textOne: "Why kids must learn programming",
                 textTwo: "Developing internationally",
@@ -36,7 +36,7 @@ angular.module('conference', [])
             },
             {
                 name: "Jeff Doe",
-                img: "../img/male3.png",
+                img: "img/male3.png",
                 description: "Data scientist at Github University",
                 textOne: "The newest frameworks in the web",
                 textTwo: "The future of the internet",
